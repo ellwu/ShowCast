@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Bootstrap 101 Template</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/showcast.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="content" class="container">
+			<div class="row">
+				<div class="col-sm-3 col-md-4"></div>
+				<div class="col-sm-4 col-md-3">
+					<div class="form-login-error">
+						<h3>Invalid login</h3>
+						<p>Enter <strong>demo</strong>/<strong>demo</strong> as login and password.</p>
+					</div>
+
+					<form method="post" role="form" id="form_login" action="index.html">
+
+						<div class="form-group">
+
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="glyphicon glyphicon-user"></i>
+								</div>
+
+								<input class="form-control" name="username" id="username" placeholder="Username" autocomplete="off" type="text">
+							</div>
+
+						</div>
+
+						<div class="form-group">
+
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="glyphicon glyphicon-lock"></i>
+								</div>
+
+								<input class="form-control" name="password" id="password" placeholder="Password" autocomplete="off" type="password">
+							</div>
+
+						</div>
+
+						<div class="form-group">
+							<button type="button" class="btn btn-primary btn-block btn-login">
+								<i class="fa fa-sign-in"></i>
+								Login In
+							</button>
+						</div>
+					</form>
+				</div>
+				
+				<div class="col-sm-3 col-md-4"></div>
+			</div>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"/>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"/>
+	</body>
+</html>
